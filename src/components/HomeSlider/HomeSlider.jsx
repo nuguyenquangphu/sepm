@@ -5,7 +5,7 @@ import "../../layouts/HomeLayout/HomeLayout.css";
 
 function HomeSlider() {
   useEffect(() => {
-    const swiper = new Swiper(".swiper", {
+    new Swiper(".swiper", {
       loop: true,
       pagination: {
         el: ".swiper-pagination",
@@ -48,8 +48,8 @@ function HomeSlider() {
             </div>
           </div>
         </div>
-        <div class="custom-pagination">
-          <div class="swiper-pagination"></div>
+        <div className="custom-pagination">
+          <div className="swiper-pagination"></div>
         </div>
       </div>
     </div>
